@@ -5,19 +5,17 @@
 #   gem 'sqlite3'
 #
 development:
-  adapter: mysql2
+  adapter: postgresql
+  encoding: unicode
   database: omw_dev
-  username: root
-  password: mysql
-  host: localhost
-  #socket: /tmp/mysql.sock
-  socket: /Applications/AMPPS/var/mysql.sock
+  pool: 5
+  username: postgres
+  password: postgre
 
 test:
-  adapter: mysql2
+  adapter: postgresql
+  encoding: unicode
   database: omw_test
-  username: root
-  password: mysql
-  host: localhost
-  #socket: /tmp/mysql.sock
-  socket: /Applications/AMPPS/var/mysql.sock
+  pool: 5
+  username: postgres
+  password: postgre
