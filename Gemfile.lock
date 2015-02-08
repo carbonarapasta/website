@@ -180,7 +180,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.3.3)
   bootstrap_form
   coffee-rails (~> 4.1.0)
-  devise
+  devise (>= 2.0.0)
   font-awesome-rails
   jbuilder (~> 2.0)
   jquery-rails
