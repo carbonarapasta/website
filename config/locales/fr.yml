@@ -1,0 +1,11 @@
+fr:
+  app:
+    name: "On My Way"
+    description: "La meilleure appli pour retrouver tes potes !"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            current_password:
+              blank: "Vous devez renseigner votre mot de passe actuel"

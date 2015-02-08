@@ -1,0 +1,36 @@
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+footer {
+	hr {
+		margin-top: 0px;
+		margin-bottom: 5px;
+	}
+
+	p {
+		margin-bottom: 8px;
+		padding-top: 4px;
+	}
+
+	position: absolute;
+	z-index: 50 !important;
+
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: #ffffff;
+	color: lighten($text-color, 40%);
+	font-size: 0.8em;
+	line-height: 1.2em;
+	text-align: center;
+
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+
+	@media (max-width: $screen-sm-max) {
+		 .unfold & {
+				left: 200px !important;
+		 }
+	}
+}
